@@ -16,7 +16,7 @@ function doGet() {
         params.credentials = 'include';
     }
 
-    fetch("http://jws200028x.mail.ne1.yahoo.com" + path, params)
+    fetch("https://test-apis-12.mail.yahoo.com" + path, params)
         .then(function (response) {
             console.log('Content-Type: ' + response.headers.get('Content-Type'));
             console.log('Status: ' + response.status);
@@ -48,7 +48,7 @@ function doDelete() {
         params.credentials = 'include';
     }
 
-    fetch("http://jws200028x.mail.ne1.yahoo.com" + path, params)
+    fetch("https://test-apis-12.mail.yahoo.com" + path, params)
         .then(function (response) {
             console.log('Content-Type: ' + response.headers.get('Content-Type'));
             console.log('Status: ' + response.status);
@@ -138,7 +138,7 @@ function doPost() {
         params.credentials = 'include';
     }
 
-    fetch("http://jws200028x.mail.ne1.yahoo.com" + path, params)
+    fetch("https://test-apis-12.mail.yahoo.com" + path, params)
         .then(function (response) {
             console.log('Content-Type: ' + response.headers.get('Content-Type'));
             console.log('Status: ' + response.status);
